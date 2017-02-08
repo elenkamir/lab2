@@ -10,11 +10,15 @@ public class sdfg {
         b = in.nextInt();
         System.out.println(sum(a,b));
         System.out.println(sub(a,b));
+        System.out.println(mul(a,b));
     }
     public static int sum(int a, int b){
         return a+b;
     }
     public static int sub(int a, int b){
         return a-b;
+    }
+    public static int mul(int a, int b){
+        return a*2;
     }
 }
